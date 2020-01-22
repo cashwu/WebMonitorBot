@@ -3,7 +3,7 @@ name: Monitor
 on: 
   push:
   schedule:
-  - cron: '3 * * * *'
+  - cron: '*/3 * * * *'
 
 jobs:
   es:
