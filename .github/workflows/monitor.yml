@@ -11,7 +11,7 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: monitor blog
+    - name: monitor es
       run: curl -sSf https://www.elephantshine.com/ > /dev/null
     - name: slack notification
       uses: homoluctus/slatify@master
@@ -30,7 +30,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: monitor blog
-      run: curl -sSf https://dddd.cashwu.com > /dev/null
+      run: curl -sSf https://blog.cashwu.com > /dev/null
     - name: slack notification
       uses: homoluctus/slatify@master
       if: failure()
