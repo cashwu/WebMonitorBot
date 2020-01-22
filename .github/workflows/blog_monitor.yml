@@ -18,7 +18,7 @@ jobs:
       if: always()
       with:
         type: ${{ job.status }}
-        job_name: '*Monitor Report*'
+        job_name: '*BLOG Monitor Report*'
         mention: 'cash'
         mention_if: 'failure'
         channel: '#general'
