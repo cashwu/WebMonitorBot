@@ -2,8 +2,8 @@ name: Monitor
 
 on: 
   push:
-  schedule:
-  - cron: '*/3 * * * *'
+  #schedule:
+  #- cron: '*/3 * * * *'
 
 jobs:
   es:
